@@ -1,0 +1,8 @@
+function isEvenOrOdd (x, y) {
+if ((x/y) % 2 === 0) {
+  return "even"
+} else {
+  return "odd"
+}
+}
+console.log(isEvenOrOdd(10, 5))
