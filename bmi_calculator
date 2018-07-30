@@ -1,0 +1,24 @@
+//bmi calulator
+//lbs to kg - lbs*0.45
+//feet to meters - feet*0.3048
+//bmi calculation - (weightKG/heightM)/heightM
+
+const yourWeight = 200
+//your weight in lbs
+
+const yourHeight = 5.6
+//your height in feet
+
+function weightKG (yourWeight) {
+  return yourWeight*0.45
+}
+
+function heightM (yourHeight) {
+  return yourHeight*0.3048
+}
+
+console.log(weightKG(yourWeight))
+console.log(heightM(yourHeight))
+
+
+console.log((weightKG(yourWeight)/heightM(yourHeight))/heightM(yourHeight))
