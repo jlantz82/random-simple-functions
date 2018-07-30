@@ -21,4 +21,6 @@ console.log(weightKG(yourWeight))
 console.log(heightM(yourHeight))
 
 
-console.log((weightKG(yourWeight)/heightM(yourHeight))/heightM(yourHeight))
+let finalBmi = ((weightKG(yourWeight)/heightM(yourHeight))/heightM(yourHeight))
+console.log(finalBmi)
+console.log(`your BMI was calculated at ${finalBmi}`)
