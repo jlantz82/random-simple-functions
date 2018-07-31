@@ -17,10 +17,35 @@ function heightM (yourHeight) {
   return yourHeight*0.3048
 }
 
-console.log(weightKG(yourWeight))
-console.log(heightM(yourHeight))
+//console.log(weightKG(yourWeight))
+//log your weight in KG to the console
+
+//console.log(heightM(yourHeight))
+//log your height in meters to the console
 
 
 let finalBmi = ((weightKG(yourWeight)/heightM(yourHeight))/heightM(yourHeight))
-console.log(finalBmi)
+//console.log(finalBmi)
+//log your BMI to the console
+
 console.log(`your BMI was calculated at ${finalBmi}`)
+
+
+if (finalBmi < 18.5) {
+  console.log("you need to eat more and hit some heavy barbell lifts!")
+} else if (finalBmi >= 18.5 && finalBmi < 24.9) {
+  console.log("good job, according to BMI you are at a normal weight - whatever that means!")
+} else if (finalBmi >= 25 && finalBmi < 29.9){
+  console.log("you are either overweight or making some serious gains")
+} else if (finalBmi >= 30) {
+  console.log("you're either very overweight, or a gym beast!!")
+} else {
+console.log("something went wrong!")
+}
+//display some information about your results in the console
+
+
+
+
+
+
