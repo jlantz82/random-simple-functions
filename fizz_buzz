@@ -12,7 +12,7 @@ if (randomNumber % 3 === 0 && randomNumber % 5 === 0) {
 } else if (randomNumber % 3 === 0) {
   console.log("Fizz");
 } else {
-console.log("it\'s neither I guess!")
+console.log("it\'s none of them I guess!")
 }
 
 
