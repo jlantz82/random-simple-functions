@@ -1,0 +1,16 @@
+//sides of the triangle are 5, 6, 7
+//find perimeter of triangle
+//sqrt of (p*(p-a)(p-b)(p-c)) - where p is 1/2 the perimeter
+
+
+
+ let side1 = 5
+ let side2 = 6
+ let side3 = 7
+ 
+let perimeter = (side1+side2+side3)/2;
+console.log(perimeter)
+
+let area = Math.sqrt(perimeter*(perimeter-side1)*(perimeter-side2)*(perimeter-side3))
+
+console.log(area)
