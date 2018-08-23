@@ -1,0 +1,17 @@
+let celsius = 15
+let fahrenheit = 70
+
+
+function cToF() {
+  console.log((celsius * 1.8) + 32);
+  
+}
+cToF()
+
+function fToC (){
+ console.log((fahrenheit -32)/1.8)
+}
+
+fToC()
+
+
