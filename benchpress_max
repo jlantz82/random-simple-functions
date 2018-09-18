@@ -1,0 +1,14 @@
+//calculate 1RM - uses the following formula: 
+// wt. x reps x .0333 + wt.= 1RM
+
+/*
+let lifterWeightLBS = 205
+let benchWeight = 315
+let reps = 7
+*/
+
+function calculate1RM(lifterWeightLBS, benchWeight, reps){
+  return benchWeight*reps*0.0333+benchWeight
+}
+
+console.log(calculate1RM(205, 315, 7))
